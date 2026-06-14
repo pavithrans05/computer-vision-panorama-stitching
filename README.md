@@ -294,7 +294,7 @@ predictions.json
 
 The trained model weights can be downloaded from the following Google Drive link:
 
-https://drive.google.com/file/d/1Z6OzqgypEnUbp2skrnsYAq-P-qonllFf/view?usp=sharing
+https://drive.google.com/file/d/13V4z7FdHpA9VzKU2QJp3rf-eeWOnD50t/view?usp=sharing
 
 
 ---
