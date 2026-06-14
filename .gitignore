@@ -4,6 +4,7 @@ __pycache__/
 
 # Jupyter
 .ipynb_checkpoints/
+*.ipynb_checkpoints
 
 # Virtual environments
 venv/
@@ -19,6 +20,12 @@ test_dataset/
 
 # Model weights
 weights/*.pth
+
+# Python packaging
+*.egg-info/
+
+# Logs
+*.log
 
 # OS files
 .DS_Store

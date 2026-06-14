@@ -7,7 +7,7 @@
 **Sriperambuduru Pavithran**
 B.Tech CSE with specialization in Artificial Intelligence and Data Science, IIIT Kottayam
 
-https://github.com/pavithrans05
+GitHub: https://github.com/pavithrans05
 
 ---
 
@@ -109,7 +109,7 @@ A **multi-task learning architecture** based on **EfficientNet-B0** was implemen
 
 ## Backbone
 
-* EfficientNet-B0 pretrained on ImageNet
+* EfficientNet-B0 pretrained on ImageNet was used as the feature extraction backbone.
 
 ## Regression Head
 
@@ -240,16 +240,20 @@ GCP_Assignment/
 │   ├── model.py
 │   ├── transforms.py
 │   ├── train.py
-│   ├── infer.py
+│   └── infer.py
+│
+├── notebooks/
+│   ├── EDA.ipynb
+│   └── GCP_Training_REG5.ipynb
 │
 ├── weights/
 │   ├── best_loss_reg5.pth
+│   ├── best_f1_reg5.pth
 │   └── training_history_reg5.csv
 │
-├── EDA.ipynb
-├── GCP_Training_REG5.ipynb
 ├── predictions.json
-└── README.md
+├── README.md
+└── requirements.txt   
 ```
 
 ---
@@ -288,10 +292,16 @@ predictions.json
 
 # Model Weights
 
-Model weights are provided separately through the submitted download link.
+The trained model weights can be downloaded from the following Google Drive link:
 
 https://drive.google.com/file/d/1Z6OzqgypEnUbp2skrnsYAq-P-qonllFf/view?usp=sharing
 
+
+---
+
+# Reproducibility
+
+Random seeds were fixed where applicable to ensure reproducible experiments. Training was performed on Google Colab using an NVIDIA Tesla T4 GPU.
 
 ---
 
